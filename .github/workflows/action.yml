@@ -1,0 +1,10 @@
+name: SimpleAction
+
+on: push
+
+jobs:
+  output:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output text
+        run: echo "Hello world"
